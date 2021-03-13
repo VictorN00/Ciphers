@@ -1,9 +1,5 @@
-
-// Authors: Victor Nguyen, Roger Ye
-
 import java.util.Scanner;
 
-// Written by Roger Ye
 public class EnigmaRunner {
 
 	public void run() throws Exception {
