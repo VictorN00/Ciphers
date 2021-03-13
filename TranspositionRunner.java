@@ -1,9 +1,6 @@
 
-// Authors: Roger Ye, Victor Nguyen
-
 public class TranspositionRunner {
 
-	// Written by Victor Nguyen & Roger Ye
 	public void run() throws Exception {
 		System.out.println("Transposition Cipher:");
 		System.out.println("Raw: " + "TRANSPOSITION\nEncrypted: " + Transposition.encode("TRANSPOSITION", "43152"));
