@@ -1,10 +1,6 @@
-
-//Authors: Victor Nguyen, Roger Ye
-
 import java.util.HashMap;
 import java.util.Map;
 
-// Written by Victor Nguyen
 // preset rotors and reflectors are based off of https://www.codesandciphers.org.uk/enigma/rotorspec.htm
 public class EnigmaMachine {
 	
@@ -19,8 +15,8 @@ public class EnigmaMachine {
 	/*
 	B: (AY) (BR) (CU) (DH) (EQ) (FS) (GL) (IP) (JX) (KN) (MO) (TZ) (VW)
 	C: (AF) (BV) (CP) (DJ) (EI) (GO) (HY) (KR) (LZ) (MX) (NW) (TQ) (SU)
-	B Dünn: (AE) (BN) (CK) (DQ) (FU) (GY) (HW) (IJ) (LO) (MP) (RX) (SZ) (TV)
-	C Dünn: (AR) (BD) (CO) (EJ) (FN) (GT) (HK) (IV) (LM) (PW) (QZ) (SX) (UY)
+	B DÃ¼nn: (AE) (BN) (CK) (DQ) (FU) (GY) (HW) (IJ) (LO) (MP) (RX) (SZ) (TV)
+	C DÃ¼nn: (AR) (BD) (CO) (EJ) (FN) (GT) (HK) (IV) (LM) (PW) (QZ) (SX) (UY)
 	*/
 	
 	Map<Character, Character> plugboard;
