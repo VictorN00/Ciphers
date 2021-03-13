@@ -1,9 +1,6 @@
 
-// Authors: Roger Ye, Victor Nguyen
-
 public class CaesarRunner {
 
-	// Written by Roger Ye & Victor Nguyen
 	public void run() throws Exception {
 		System.out.println("Caesar Cipher:");
 		System.out.println("Raw: The cow goes moo.\nEncrypted: " + Caesar.encode("The cow goes moo.", 5, false));
