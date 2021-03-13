@@ -1,12 +1,8 @@
-
-// Authors: Victor Nguyen, Roger Ye
-
 import java.util.HashMap;
 import java.util.Map;
 
 public class Playfair {
 	
-	// Written by Victor Nguyen
 	public static String encode(String raw, char skip) {
 		raw = raw.replaceAll(" ", "").replaceAll("[^A-Za-z]", "").toUpperCase();
 		char[][] mat = new char[5][5];
@@ -46,7 +42,6 @@ public class Playfair {
 		return enc.toString();
 	}
 	
-	// Written by Roger Ye
 	public static String decode(String encrypted, char skip) {
 		encrypted = encrypted.replaceAll(" ", "").replaceAll("[^A-Za-z]", "").toUpperCase();
 		char[][] mat = new char[5][5];
