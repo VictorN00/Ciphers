@@ -1,9 +1,6 @@
 
-// Authors: Victor Nguyen, Roger Ye
-
 public class PlayfairRunner {
 	
-	// Written by Victor Nguyen & Roger Ye
 	public void run() throws Exception {
 		System.out.println("Playfair Cipher:");
 		System.out.println("Raw: Meet me at noon\nEncrypted: " + Playfair.encode("Meet me at noon", 'J'));
