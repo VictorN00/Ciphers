@@ -1,2 +1,2 @@
 # Ciphers
-ciphers :)
+cyphers :)
