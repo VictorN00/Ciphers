@@ -1,9 +1,6 @@
 
-// Authors: Roger Ye, Victor Nguyen
-
 public class Caesar {
 	
-	// Written by Roger Ye & Victor Nguyen
 	public static String encode(String raw, int shift, boolean right) {
 		StringBuffer enc = new StringBuffer();
 		for (int i = 0; i < raw.length(); i++) {
