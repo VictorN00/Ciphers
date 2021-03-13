@@ -1,10 +1,6 @@
-
-//Authors: Victor Nguyen, Roger Ye
-
 import java.util.HashMap;
 import java.util.Map;
 
-// Written by Victor Nguyen
 // preset rotors and reflectors are based off of https://www.codesandciphers.org.uk/enigma/rotorspec.htm
 public class EnigmaMachine {
 	
