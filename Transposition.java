@@ -1,9 +1,6 @@
 
-// Authors: Roger Ye, Victor Nguyen
-
 public class Transposition {
 
-	// Written by Roger Ye
 	public static String encode(String raw, String key) {
 		raw = raw.replaceAll(" ", "").toUpperCase();
 		char[][] mat = new char[(int) Math.ceil((double) raw.length() / key.length())][key.length()];
@@ -32,7 +29,6 @@ public class Transposition {
 		return enc.toString().replaceAll(" ", "");
 	}
 
-	// Written by Victor Nguyen
 	public static String decode(String encrypted, String key) {
 		encrypted = encrypted.replaceAll(" ", "").toUpperCase();
 		char[][] mat = new char[(int) Math.ceil((double) encrypted.length() / key.length())][key.length()];
