@@ -1,6 +1,10 @@
+
+//Authors: Victor Nguyen, Roger Ye
+
 import java.util.HashMap;
 import java.util.Map;
 
+// Written by Victor Nguyen
 // preset rotors and reflectors are based off of https://www.codesandciphers.org.uk/enigma/rotorspec.htm
 public class EnigmaMachine {
 	
@@ -57,11 +61,11 @@ public class EnigmaMachine {
 	}
 	
 	public String translate(String raw) {
-		raw = raw.replaceAll("[^A-Za-z ]", "");
+		//raw = raw.replaceAll("[^A-Za-z ]", "");
 		StringBuffer encrypted = new StringBuffer();
 		for (int i = 0; i < raw.length(); i++) {
 			char c = raw.charAt(i);
-			if (c == ' ') {
+			if (!Character.isAlphabetic(c)) {
 				encrypted.append(c);
 				continue;
 			}
