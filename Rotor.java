@@ -1,9 +1,5 @@
-
-// Authors: Victor Nguyen, Roger Ye
-
 import java.util.Arrays;
 
-// Written by Victor Nguyen
 public class Rotor {
 	
 	char[] letters;
