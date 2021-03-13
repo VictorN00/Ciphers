@@ -16,7 +16,7 @@ public class CowRunner {
 		System.out.println();
 		
 		System.out.println("Raw: This is the most advanced cipher of the 21st century!\nEncrypted: " + Cow.encode("This is the most advanced cipher of the 21st century!"));
-		System.out.println("Decrypted: " + Cow.decode("Titmacot2c!"));
+		System.out.println("Decrypted: " + Cow.decode("Titmacock2c!"));
 		System.out.println();
 	}
 
