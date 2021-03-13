@@ -1,7 +1,4 @@
 
-// Authors: Victor Nguyen, Roger Ye
-
-// Written by Roger Ye
 public class RotorSystem {
 	/*
 	public static final Rotor[] presets = {
