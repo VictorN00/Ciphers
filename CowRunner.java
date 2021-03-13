@@ -1,9 +1,6 @@
 
-// Authors: Victor Nguyen, Roger Ye
-
 public class CowRunner {
 
-	// Written by Victor Nguyen & Roger Ye
 	public void run() throws Exception {
 		System.out.println("Cow Cipher:");
 		System.out.println("Raw: that's not a bad idea\nEncrypted: " + Cow.encode("that's not a bad idea"));
